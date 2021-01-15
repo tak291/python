@@ -12,4 +12,14 @@ dates = df[1]
 orders = df[2]
 percentage = df[3]
 
-print(location)
+#print(location)
+
+seen = set()
+result = []
+
+for i in location:
+    if i not in location:
+        seen.add(i)
+        result.append(i)
+
+print (seen)
