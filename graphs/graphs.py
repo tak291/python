@@ -27,3 +27,8 @@ result = []
 
 
 print (seen)
+
+
+print (df.groupby([1]).sum())
+
+
