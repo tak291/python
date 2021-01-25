@@ -22,7 +22,7 @@ result = []
 #         seen.add(i)
 #         result.append(i)
 
-#list comprehensions
+#list comprehensions.sum()
 [seen.add(i) for i in location if i not in seen]
 
 
